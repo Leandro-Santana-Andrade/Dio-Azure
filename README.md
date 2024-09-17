@@ -13,3 +13,8 @@ Repositório de resumo do estudo sobre cloud Azure.
       Segurança: Protecao contra acesso interno e externo sem permissao. 
       Escalabilidade: Adiciona desempenho conforme necessario.
       Elasticidade: O sistema se adequa aos recursos solicictados.
+
+4 - O modulo descreve os tipos de servico disponiveis no ambiente de nuvem.
+   - IaaS: Infra estrutura como servico. Nesse modelo, a fornecedora fica responsavel por entregar o hadware e a rede. O restante fica por responsabiliade do cliente.
+   - PaaS: Plataforma como servico. O forncedor, sobe o nivel de servico entrega e disponibiliza um ambiente pronto para o cliente.
+   - SaaS: No software como servico, geralmente é a nivel de aplicacao, onde o cliente possui o menor nivel de responsabilidade. 
