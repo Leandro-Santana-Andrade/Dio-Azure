@@ -1,6 +1,7 @@
 # Dio-Azure
 Repositório de resumo do estudo sobre cloud Azure.
-#MODULO 1
+
+# MODULO 1 <h1>
    1 - Introducao ao ambiente cloud:
       Foi mostrados os tipos de servicos e os direitos e deveres da fornecedor do servico e cliente.
       
@@ -19,7 +20,7 @@ Repositório de resumo do estudo sobre cloud Azure.
       - PaaS: Plataforma como servico. O forncedor, sobe o nivel de servico entrega e disponibiliza um ambiente pronto para o cliente.
       - SaaS: No software como servico, geralmente é a nivel de aplicacao, onde o cliente possui o menor nivel de responsabilidade. 
 
-#MODULO 2
+# MODULO 2 <h1>
 - Regiões: locais no globo onde possui data center da nuvem, atualmente possui 60 regiões. A região deve ter pelo menos 3 data centers por região. Toda região possui uma região par para o caso de desastre. Regiões soberanas são regiões que possui acesso restrito para determinado cliente, geralmente órgão governamental. 
 
 - Recursos:
