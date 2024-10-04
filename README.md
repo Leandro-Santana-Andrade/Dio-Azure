@@ -32,4 +32,12 @@ Repositório de resumo do estudo sobre cloud Azure.
 	* Funções
 
 - Assinatura:
-	Utiliza o sistema 1:n, nesse modelo, uma conta pode possuir varias assinaturas. Dessa forma, [e possível modularizar o projeto por equipes. Também permite ter um controle maior, permitindo uma segurança maior no ambiente.
+	Utiliza o sistema 1:n, nesse modelo, uma conta pode possuir varias assinaturas. Dessa forma, é possível modularizar o projeto por equipes. Também permite ter um controle maior, permitindo uma segurança maior no ambiente.
+
+- Disponibilidade de Maquinas Virtual
+	É uma boa pratica criar grupos de maquinas virtuais para manter a disponibilidade de uma sistema ou serviço.
+
+- Sistema remotos, contêineres e aplicativos:
+	Área de trabalho remota: maquinas virtualizadas que permitem acesso de forma remota para realizar uma tarefa ou utilizar um serviço. 
+	Contêineres: gestão de serviços sem a necessidade de gastar recursos com um sistema operacional, dessa forma torna o consumo de hardware mais eficiente.
+	Aplicativos de Função: serviço que permite gerar um código sem a necessidade de criar uma infraestrutura completa para gerenciar/utilizar a aplicação.
