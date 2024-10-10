@@ -41,3 +41,42 @@ Repositório de resumo do estudo sobre cloud Azure.
 	Área de trabalho remota: maquinas virtualizadas que permitem acesso de forma remota para realizar uma tarefa ou utilizar um serviço. 
 	Contêineres: gestão de serviços sem a necessidade de gastar recursos com um sistema operacional, dessa forma torna o consumo de hardware mais eficiente.
 	Aplicativos de Função: serviço que permite gerar um código sem a necessidade de criar uma infraestrutura completa para gerenciar/utilizar a aplicação.
+
+- Armazenamento
+	 Conta de armazenamento: conta deve possuir nome exclusivo dentro de toda a rede e pode receber diversos tipos de dados, dentre eles: 
+		* blobs: feito para armazenar dados não estruturados
+		* discos: fornece discos para vm, aplicativos e serviços utilizarem.
+		* filas:  serviço de armazenamento de mensagens
+		* files: compartilhamento de arquivos na rede com alta disponibilidade. 
+		* Tabelas: fornece uma opção de chave para armazenamento de dados estruturados não relacionais.  
+
+- Redundância de armazenamento: 
+     LRS: redundância local
+     ZRS: redundância de zona
+     GRS: redundância geográfica
+     GZRS: redundância zona geográfica
+
+- Camadas de acesso
+
+	* Frequente: dados acessados com frequência
+	* Esporádico: dados acessados com pouca frequência, intervalo de 30 dias entre as consultas.
+	* Frio: dados acessados com pouca frequência, intervalo de 90 dias entre as consultas. 
+	* Arquivo morto: raramente acessado, intervalo de pelo menos 180 dias entre as consultas.
+
+- Migrações de Dados para Azure
+  
+	* Azure Data Disc: equipamento para transferencia de dados com ate 40 tera.
+	* Azure Data Box: equipamento para transgênicos de dados, 1 equipamento pode transporta até 80 tera de dados.
+	* Azure Data Heavy: projetado para transferir mais de 800 tera de dados.
+	* AzCopy:
+		- Utiliza linhas de comandos .
+		- Copia arquivos da conta na nuvem.
+		- Sincronização unidirecional.
+		- Indicado para quantidade baixa ou mediana de dados.
+
+  	* Gerenciamento de Armazenamento Azure:
+		- Utiliza ambiente gráfico para gerenciamento de dados.
+		- Compatível com diversos sistemas operacionais.
+		- Sincronização de arquivos do Azure.
+		- Sincronização bidirecional.
+		- Utiliza cache, acesso a arquivo local.
