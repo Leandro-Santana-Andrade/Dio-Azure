@@ -80,3 +80,43 @@ Repositório de resumo do estudo sobre cloud Azure.
 		- Sincronização de arquivos do Azure.
 		- Sincronização bidirecional.
 		- Utiliza cache, acesso a arquivo local.
+  
+ - Identidade, Acesso e segurança
+
+   * Entra ID: serviço de gerenciamento de identidade, permitindo um login único (SSO) acessar a nuvem.
+
+   * Autenticação X autorização
+     - Autenticação: o usuário existe e foi validado para acessar o serviço.
+     - Autorização: nível de acesso que o usuário possui dentro do sistema.
+
+   * MFA (autenticação multifator) :
+     - Algo que você sabe ( usuário e senha )
+     - Algo que voce possui (equipamentos)
+     - Algo que você é ( biometria ) 
+
+   * Autenticação b2b ( identidade externa ): traz uma identidade de fora do serviço para acessar o ambiente específico como convidado.
+     
+   * Autenticação b2c ( business to custumer ): compartilha recurso com usuário de autenticação externa.
+     
+   * Acesso condicional: ferramenta para permitir/ negar acesso a recursos através de sinais.:
+     - Associação de usuários / grupo
+     - Local de IP
+     - Dispositivo 
+     - Aplicativo 
+     - Detecção de risco
+
+   * Controle de acesso baseado em função ( RBAC )
+     - Gerenciamento de acesso de granulação fina
+     - Conceder somente a quantidade mínima de acesso
+     - Habilitar controle de acesso aos recursos 
+
+   * Modelo de confiança zero: sempre conseder acesso mínimo ao recursos. Uma abordagem em camadas para proteger o sistema.
+
+     Camadas de proteção completa: 
+        - Segurança física 
+        - Identidade e acesso 
+        - Perímetro 
+        - Rede 
+        - Computação 
+        - Aplicativo 
+        - Dados 
