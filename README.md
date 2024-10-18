@@ -120,3 +120,38 @@ Repositório de resumo do estudo sobre cloud Azure.
         - Computação 
         - Aplicativo 
         - Dados 
+
+#MODULO 3 <h6>
+
+Gerenciamento de custo: O tipo de recurso define o custo sobre o serviço, assim como a categoria também afeta o custo final.
+
+* Modelos de consumo:
+
+	* Pagar conforme o uso. 
+	* Reserva, onde predefine um período de uso de serviço.
+
+* Manutenção: monitorar seu ambiente permite validar se o custo sobre aquele serviço ainda é necessário. Consequentemente esse controle pode gerar uma redução de custo.
+
+* Área geográfica: dependendo do local o mesmo serviço pode ter um custo diferente.
+
+* Trafego de rede: Enviar dados para o nuvem pode ser gratuito, dependendo do cenário. Porem, o trafego de dados entre recursos pode ser afetado por zonas de cobrança. 
+
+* Assinatura: o tipo de assinatura afeta o custo. 
+ 
+* Azure Marketplace: Ambiente onde é possível adquirir licença de softwares, implantação de aplicativos, ferramentas para desenvolvimento entre outros produtos. Caso esse item apresente problema, o suporte da aplicação deve ser acionado, a Azure não é responsável por essa função.
+
+Calculadora de custo e preços: ferramenta que ajuda a ter uma estimativa do custo sobre o serviço. Para esse calculo, são validados os seguintes fatores:
+
+   - Região
+   - Camada
+   - Opção de cobrança
+   - Opção de suporte
+   - Programa e ofertas
+   - Preço de desenvolvimento/teste doa Azure
+
+TCO(Calculadora de custo total de propriedade): Ferramenta para estimar a economia de custos possível ao migrar para nuvem. 
+
+Relatório de comparação dos custos das infraestruturas locais com os custos de uso de serviço na nuvem. 
+
+Marcas: Organiza e fornece metadados aos recursos do Azure, porem, não são obrigatórios ou herdados. Muito útil para reunir informações de cobrança. 
+
