@@ -162,7 +162,7 @@ Marcas: Organiza e fornece metadados aos recursos do Azure, porem, não são obr
 		- Exclusão: Permite ler, permite atualizar e não permite excluir um serviço/recurso
 		- Somente Leitura: Permite ler, não permite atualizar e não permite exclusão de recursos/serviço.
 
-	Obs.: Caso o recurso seja movido, não migrado com ele a regra de bloqueio de exclusão.
+	Obs.: Caso o recurso seja movido e a regra de bloqueio não foi diretamento atribuido a ele, não migrado com ele a regra de bloqueio de exclusão.
 
 * Portal de Confiança do Serviço: Onde pode identificar regras e protocolos para atendimento a tipos de empresas e/ou governos. 
 
