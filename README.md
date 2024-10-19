@@ -192,7 +192,7 @@ Marcas: Organiza e fornece metadados aos recursos do Azure, porem, não são obr
 * Bicep: modelo de linguagem específica de domínio (DSL) para automatisar o ambiente.
 
 * Ferramentas de Monitoramento.
-    * Assistente do Azure: ajuda a analisar recursos e faz recomendações baseados em boas praticas para otimizar as implantações no Azure. Esse serviço valida os seguintes tópicos: 
+    * Assistente do Azure(Advisor): ajuda a analisar recursos e faz recomendações baseados em boas praticas para otimizar as implantações no Azure. Esse serviço valida os seguintes tópicos: 
         * Confiabilidade
         * Segurança
         * Desempenho
