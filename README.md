@@ -150,3 +150,16 @@ TCO(Calculadora de custo total de propriedade): Ferramenta para estimar a econom
 Relatório de comparação dos custos das infraestruturas locais com os custos de uso de serviço na nuvem. 
 
 Marcas: Organiza e fornece metadados aos recursos do Azure, porem, não são obrigatórios ou herdados. Muito útil para reunir informações de cobrança.
+
+
+* Governança e conformidade 
+	
+	- Azure Policy: ajuda a impor padrões e avaliar a conformidade. A policy ignora qualquer permissão aplicada a um usuário. 
+
+	- Bloqueio de recursos: Protege recursos no Azure de exclusão ou modificação acidental. Esse serviço permite gerenciar bloqueios na assinatura, grupo de recursos ou níveis de recursos individuais dentro do Portal Azure. As configurações de bloqueio são herdáveis. 
+	
+	Tipos de bloqueio:
+		- Exclusão: Permite ler, permite atualizar e não permite excluir um serviço/recurso
+		- Somente Leitura: Permite ler, não permite atualizar e não permite exclusão de recursos/serviço.
+
+	Obs.: Caso o recurso seja movido, não migrado com ele a regra de bloqueio de exclusão.
