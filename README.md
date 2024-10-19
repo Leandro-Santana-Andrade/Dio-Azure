@@ -191,3 +191,14 @@ Marcas: Organiza e fornece metadados aos recursos do Azure, porem, não são obr
 
 * Bicep: modelo de linguagem específica de domínio (DSL) para automatisar o ambiente.
 
+* Ferramentas de Monitoramento.
+    * Assistente do Azure: ajuda a analisar recursos e faz recomendações baseados em boas praticas para otimizar as implantações no Azure. Esse serviço valida os seguintes tópicos: 
+        * Confiabilidade
+        * Segurança
+        * Desempenho
+        * Custo
+        * Excelencia operacional
+    * Integridade do serviço: coleção de serviços que mantem o usuário informado sobre o status geral do Azure, de serviços ou recursos. 
+    * Status do Azure: visão global da integridade de todos os servicos em todas as regiões do Azure
+    * Resource Health: exibição personalizada dos recursos reais do Azure. Fornece informações sobre a integridade de recursos individualmente.
+    * Azure Monitor: maximiza a disponibilidade e o desempenho de aplicativos coletando, analisando e tomando decisões com base na telemetria da nuvem e de ambientes.
