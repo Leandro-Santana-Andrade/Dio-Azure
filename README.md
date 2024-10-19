@@ -167,3 +167,27 @@ Marcas: Organiza e fornece metadados aos recursos do Azure, porem, não são obr
 * Portal de Confiança do Serviço: Onde pode identificar regras e protocolos para atendimento a tipos de empresas e/ou governos. 
 
 * Microsoft Purview: Serve para gerenciamento de governança, risco e conformidade de dados. Fornece um relatório de como os  dados estão sendo tratados na base local, nuvem ou software como serviço. 
+
+* Portal de Confiança do Serviço: onde pode identificar regras e protocolos para atendimento a tipos de empresas e/ou governos. 
+
+* Microsoft Purview: serve para gerenciamento de governança, risco e conformidade de dados. Fornece um relatório de como os  dados estão sendo tratados na base local, nuvem ou software como serviço. 
+
+
+* Ferramentas de implantação de recursos.
+
+    * Portal Azure: responsável por gerenciar e criar recursos no Azure.
+    * Azure PowerShell e CLI: terminal para interagir via liha de comando.
+    * Azure Arc: serviço responsável por gerenciar recursos que estão fora da cloud. 
+    * Azure Resource Manager (ARM): fornece uma camada de gerenciamento que permite criar, atualizar e exclusão de recursos no Azure.
+       
+	![image](https://github.com/user-attachments/assets/d22c5498-23e8-4f3b-b7b4-e95e8e91d207)
+
+* Infraestrutura como código
+    * Garanta consistência na implantação em todo o ecossistema de nuvem
+    * Gerencie a configuração em escala
+    * Provisionar rapidamente o ambiente com infraestrutura pre pronta.
+
+* Modelos de ARM: São arquivos em JSON que podem ser usados para criar e implantar a infraestrutura sem a necessidade de criar comandos.
+
+* Bicep: modelo de linguagem para automatisar o ambiente.
+
