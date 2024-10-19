@@ -1,4 +1,4 @@
-# Dio-Azure
+# Resumo Dio-Azure
 Repositório de resumo do estudo sobre cloud Azure.
 
 # MODULO 1 <h6>
@@ -163,3 +163,7 @@ Marcas: Organiza e fornece metadados aos recursos do Azure, porem, não são obr
 		- Somente Leitura: Permite ler, não permite atualizar e não permite exclusão de recursos/serviço.
 
 	Obs.: Caso o recurso seja movido, não migrado com ele a regra de bloqueio de exclusão.
+
+* Portal de Confiança do Serviço: Onde pode identificar regras e protocolos para atendimento a tipos de empresas e/ou governos. 
+
+* Microsoft Purview: Serve para gerenciamento de governança, risco e conformidade de dados. Fornece um relatório de como os  dados estão sendo tratados na base local, nuvem ou software como serviço. 
