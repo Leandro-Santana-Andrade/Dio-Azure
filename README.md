@@ -189,5 +189,5 @@ Marcas: Organiza e fornece metadados aos recursos do Azure, porem, não são obr
 
 * Modelos de ARM: São arquivos em JSON que podem ser usados para criar e implantar a infraestrutura sem a necessidade de criar comandos.
 
-* Bicep: modelo de linguagem para automatisar o ambiente.
+* Bicep: modelo de linguagem específica de domínio (DSL) para automatisar o ambiente.
 
